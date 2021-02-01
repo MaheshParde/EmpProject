@@ -8,6 +8,7 @@ public class EmpDetails {
     }
 
     public void displaydata(){
+        System.out.println("Employee Details are:");
         System.out.println("\n Emp id: "+id);
         System.out.println("Employee Name: "+empname);
         System.out.println("Salary: "+sal);
