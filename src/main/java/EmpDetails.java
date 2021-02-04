@@ -9,9 +9,9 @@ public class EmpDetails {
 
     public void displaydata(){
         System.out.println("Employee Details are:");
-        System.out.println("\n Emp id: "+id);
-        System.out.println("Employee Name: "+empname);
-        System.out.println("Salary: "+sal);
+        System.out.println("\n Emp id is :  "+id);
+        System.out.println("Employee Name is: "+empname);
+        System.out.println("Salary is: "+sal);
     }
     public static void main(String[] args){
         EmpDetails emp1=new EmpDetails(111,"Apurva",55555);
